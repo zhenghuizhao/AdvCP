@@ -1,0 +1,59 @@
+backbone:
+  config: mit_b1
+  stride: [4, 2, 2, 1]
+  comments: None
+
+scheme: transwcd_dual #transwcd_single, transwcd_dl_single, transwcd_dl_dual
+
+dataset:
+  root_dir: /data/Dataset/Change Detection/LEVIR-CD-256
+  name_list_dir: datasets/LEVIR
+  num_classes: 2
+  crop_size: 256
+  rescale_range: [1.0, 1.0]
+  ignore_index: 255
+
+
+work_dir:
+  dir: work_dir_LEVIR
+  ckpt_dir: checkpoints
+  pred_dir: predictions
+  logger_dir: logger
+
+train:
+  split: train
+  batch_size: 16   # 8
+  max_iters: 50000
+  cam_iters: 200    #2000
+  eval_iters: 200   #500
+  log_iters: 200    #500
+
+cam:
+  bkg_score: 0.45
+  scales: [1, 0.5, 1.5, 2.0]
+  high_thre: 0.6
+  low_thre: 0.3
+
+val:
+  split: val
+  batch_size: 1
+
+test:
+  split: test
+  batch_size: 1
+
+
+optimizer:
+  type: AdamW
+  learning_rate: 6e-5 #6e-5 0.0001
+  betas: [0.9, 0.999]
+  weight_decay: 0.01
+
+scheduler:
+  warmup_iter: 1500  #1500
+  warmup_ratio: 1e-6  #1e-6
+  power: 1.0
+
+mic:
+  highpass_score: 0.6
+  lowpass_score: 0.3
