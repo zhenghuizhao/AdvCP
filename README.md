@@ -1,5 +1,5 @@
 # Advancing Weakly-Supervised Change Detection in Satellite Images via Adversarial Class Prompting
-## :notebook_with_decorative_cover: Code for Paper: Advancing Weakly-Supervised Change Detection in Satellite Images via Adversarial Class Prompting [[arXiv]](https://arxiv.org)
+## :notebook_with_decorative_cover: Code for Paper: Advancing Weakly-Supervised Change Detection in Satellite Images via Adversarial Class Prompting [[arXiv]](https://arxiv.org/abs/2508.17186)
 
 <p align="center">
     <img src="./tutorials/introduction1_01.png" width="95%" height="95%">
@@ -65,6 +65,14 @@ python test.py
 ## Citation
 If it's helpful to your research, please kindly cite. Here is an example BibTeX entry:
 
-``` bibtex
-
+```
+@misc{zhao2025advancingweaklysupervisedchangedetection,
+      title={Advancing Weakly-Supervised Change Detection in Satellite Images via Adversarial Class Prompting}, 
+      author={Zhenghui Zhao and Chen Wu and Di Wang and Hongruixuan Chen and Cuiqun Chen and Zhuo Zheng and Bo Du and Liangpei Zhang},
+      year={2025},
+      eprint={2508.17186},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2508.17186}, 
+}
 ```
