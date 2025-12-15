@@ -66,6 +66,17 @@ python test.py
 If it's helpful to your research, please kindly cite. Here is an example BibTeX entry:
 
 ```
+@ARTICLE{11217335,
+  author={Zhao, Zhenghui and Wu, Chen and Wang, Di and Chen, Hongruixuan and Chen, Cuiqun and Zheng, Zhuo and Du, Bo and Zhang, Liangpei},
+  journal={IEEE Transactions on Image Processing}, 
+  title={Advancing Weakly-Supervised Change Detection in Satellite Images via Adversarial Class Prompting}, 
+  year={2025},
+  volume={34},
+  pages={7065-7078},
+  keywords={Prototypes;Training;Noise;Predictive models;Annotations;Remote sensing;Location awareness;Weak supervision;Robustness;Perturbation methods;Remote sensing;change detection;satellite imagery;high resolution;weak supervision},
+  doi={10.1109/TIP.2025.3623260}
+}
+
 @misc{zhao2025advancingweaklysupervisedchangedetection,
       title={Advancing Weakly-Supervised Change Detection in Satellite Images via Adversarial Class Prompting}, 
       author={Zhenghui Zhao and Chen Wu and Di Wang and Hongruixuan Chen and Cuiqun Chen and Zhuo Zheng and Bo Du and Liangpei Zhang},
