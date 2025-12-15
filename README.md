@@ -66,7 +66,7 @@ python test.py
 If it's helpful to your research, please kindly cite. Here is an example BibTeX entry:
 
 ```
-@ARTICLE{11217335,
+@ARTICLE{zhao2025advancing,
   author={Zhao, Zhenghui and Wu, Chen and Wang, Di and Chen, Hongruixuan and Chen, Cuiqun and Zheng, Zhuo and Du, Bo and Zhang, Liangpei},
   journal={IEEE Transactions on Image Processing}, 
   title={Advancing Weakly-Supervised Change Detection in Satellite Images via Adversarial Class Prompting}, 
@@ -77,7 +77,7 @@ If it's helpful to your research, please kindly cite. Here is an example BibTeX 
   doi={10.1109/TIP.2025.3623260}
 }
 
-@misc{zhao2025advancingweaklysupervisedchangedetection,
+@misc{zhao2025advancing,
       title={Advancing Weakly-Supervised Change Detection in Satellite Images via Adversarial Class Prompting}, 
       author={Zhenghui Zhao and Chen Wu and Di Wang and Hongruixuan Chen and Cuiqun Chen and Zhuo Zheng and Bo Du and Liangpei Zhang},
       year={2025},
